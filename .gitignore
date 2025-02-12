@@ -14,4 +14,7 @@ dist/
 test2.js
 scraper/test.js
 
-*.test2.js
+tempCodeRunnerFile.js
+
+scraper/tempCodeRunnerFile.js
+.vercel

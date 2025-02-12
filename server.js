@@ -55,7 +55,7 @@ app.get('/source/:anime_id/:category/:server_name', async (req, res) => {
 
 
     // }
-
+    ls -a
 
 
     // data.sources=sources

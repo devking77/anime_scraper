@@ -168,7 +168,7 @@ class HIANIME{
             // Movie, TV, OVA, ONA, Special, Music
             info.type = $('span.item').last().prev().prev().text().toUpperCase();
             info.url = `${baseUrl}/${id}`;
-            info.recommendations = await scrapeCard($);
+            info.recommendations = await this.scrapeCard($);
             info.relatedAnime = [];
             $('#main-sidebar section:nth-child(1) div.anif-block-ul li').each((i, ele) => {
                 var _a, _b, _c, _d, _e, _f, _g;
