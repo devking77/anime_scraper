@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+*.bak
+.vscode/
+.idea/
+
+
+
+node_modules/
+.env
+dist/
+
+
+test2.js
+scraper/test.js
+
